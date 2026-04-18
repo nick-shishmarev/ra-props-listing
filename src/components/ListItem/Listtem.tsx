@@ -41,7 +41,7 @@ export function ListItem({
       <div className="product-info">
         <h3 className="product-title">{title}</h3>
         <div className="price-container">
-          <div className="product-price">{currencyCode}{price}</div>
+          <div className="product-price">{currencyCode} {price}</div>
           <span className={"stock-badge " + classStock}>{quantity} left</span>
         </div>
       </div>
